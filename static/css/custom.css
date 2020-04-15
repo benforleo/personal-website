@@ -1,0 +1,35 @@
+/*body {*/
+/*    background-color: rgb(208,203,201)*/
+/*}*/
+
+.navbar-name{
+    padding-left: .95rem;
+    border-left: 1px solid grey;
+}
+#mainNavbar{
+    background-color: rgb(248, 249, 250);
+}
+
+/*medium break: 768px lg break 992px sm break: 576 */
+@media(max-width: 992px){
+    .navbar-name{
+        border-left: none;
+        padding-left: .5rem;
+    }
+    /*.navbar-brand{*/
+    /*    padding-left: .5rem;*/
+    /*}*/
+}
+
+footer {
+    background-color: rgb(71,141,137);
+}
+
+#banner {
+    /*background: url("../img/shapelined-_JBKdviweXI-unsplash.jpg") center center / cover no-repeat;*/
+    background: url("../img/s-o-c-i-a-l-c-u-t-gREi-9tI5Mg-unsplash.jpg") center center / cover no-repeat;
+}
+
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0);
+}

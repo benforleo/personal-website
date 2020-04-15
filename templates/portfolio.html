@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div id=banner class="container-fluid py-5">
+        <div class="container jumbotron">
+            <h1>Portfolio</h1>
+            <p>A collection of my favorite analytics and data science projects</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr class="py-3">
+
+        <section id="informationWarfare" class="px-4">
+            <h3>Information Warfare:</h3>
+            <p class="pb-3">Russia's Use of Twitter during the 2016 US Presidential Election</p>
+            <div class="row pb-5 d-flex justify-content-between">
+                <div class="col-5">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="static/img/iw_thumb.jpg">
+                        <div class="card-body">
+                            <a href="#" class="card-link">PowerPoint</a>
+                            <a href="#" class="card-link">Working Paper</a>
+                            <a href="#" class="card-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p>On July 31, 2018, the website FiveThirtyEight published nearly 3 million tweets sent from Twitter handles connected to the Internet Research Agency(IRA), a Russian "troll factory" and a defendant in an indictment filed by the Justice Department in February 2018, as part of special counsel Robert Mueller's Russia investigation.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <hr class="pb-5">
+
+        <section class="px-3">
+        <div class="row">
+            <div class="col-12">
+                <h3>Campaign Finance Data:</h3>
+                <p class="pb-3">An analysis of the 2016 US Presidential Election</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-between">
+            <div class="col-6">
+                <p>This repository was created as part of a school project at the University of New Hampshire which asked students to create a Shiny app in R using a dataset of the students choice. I chose to work with campaign finance data for the 2016 election cycle, and I eventually settled on individual contributions to the the top 16 presidential contenders classified as transaction type 15, 15C, and 15E.</p>
+            </div>
+            <div class="col-5">
+                <div class="card text-center">
+                    <img class="card-img-top" src="static/img/campaign_contributions.png">
+                    <div class="card-body">
+                        <a href="#" class="card-link">Dashboard</a>
+                        <a href="#" class="card-link">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <hr>
+
+        <section id="mnCrimeData" class="px-3">
+            <h3>MN Crime Data</h3>
+            <p class="pb-5">An exercise in data cleaning using R</p>
+            <div class="row d-flex justify-content-between pb-5">
+                <div class="col-5">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="static/img/mn_crime.png">
+                        <div class="card-body">
+                            <a href="#" class="card-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p>This project was completed as part of a school assignment for Prof. Phani Kidambi's Analytics Applications (DATA 900) course at the University of New Hampshire during the Fall 2018 semester. Students were given a dataset detailing various crimes committed in Minneapolis Minnesota during the years 2010 through 2016. The dataset was purposely altered by Prof. Kidambi to make it more challenging to clean.</p>
+                </div>
+            </div>
+        </section>
+
+    <hr class="py-3">
+
+
+    </div>
+
+
+{% endblock %}
