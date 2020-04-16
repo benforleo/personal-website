@@ -7,6 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def portfolio():
     year = dt.datetime.now().year
+
     return render_template('portfolio.html', year=year)
 
 

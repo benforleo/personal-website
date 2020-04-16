@@ -1,14 +1,34 @@
+/* hex values for theme */
+/*#025e96*/
+/*#9e7ea8*/
+/*#dbb1b7*/
+/*#fbeee6*/
+
+
+/*#025e96*/
+/*#626aa1*/
+/*#9178a7*/
+/*#b48bab*/
+/*#cea0b0*/
+/*#e1b9bb*/
+/*#efd4cd*/
+/*#fbeee6*/
 /*body {*/
-/*    background-color: rgb(208,203,201)*/
+/*    background-color: #fbeee6;*/
 /*}*/
+
+section {
+    background-color: #fbeee655;
+}
 
 .navbar-name{
     padding-left: .95rem;
     border-left: 1px solid grey;
 }
-#mainNavbar{
-    background-color: rgb(248, 249, 250);
-}
+/*#mainNavbar{*/
+/*    !*background-color: rgb(248, 249, 250);*!*/
+/*    background-color: #025e96dd;*/
+/*}*/
 
 /*medium break: 768px lg break 992px sm break: 576 */
 @media(max-width: 992px){
@@ -21,10 +41,6 @@
     /*}*/
 }
 
-footer {
-    background-color: rgb(71,141,137);
-}
-
 #banner {
     /*background: url("../img/shapelined-_JBKdviweXI-unsplash.jpg") center center / cover no-repeat;*/
     background: url("../img/s-o-c-i-a-l-c-u-t-gREi-9tI5Mg-unsplash.jpg") center center / cover no-repeat;
@@ -33,3 +49,23 @@ footer {
 .jumbotron{
     background-color: rgba(0, 0, 0, 0);
 }
+
+section a {
+    color: #025e96;
+}
+
+
+footer {
+    /*background-color: rgb(71,141,137);*/
+    background-color: #025e96;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#resumeContainer{
+    height: 1000px;
+}
+
