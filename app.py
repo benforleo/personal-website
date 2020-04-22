@@ -13,7 +13,8 @@ def portfolio():
 
 @app.route('/resume')
 def resume():
-    return render_template('resume.html')
+    year = dt.datetime.now().year
+    return render_template('resume.html', year=year)
 
 
 @app.route('/about')
